@@ -19,6 +19,11 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.jsoup:jsoup:1.23.2'
+    implementation files('../lib/http-builder-ng-core-1.0.4.jar')
+    implementation 'org.slf4j:slf4j-api:1.8.0-alpha0'
+    implementation 'xml-resolver:xml-resolver:1.2'
+
     // Use the latest Groovy version for building this library
     implementation libs.groovy.all
 
@@ -41,10 +46,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'org.example.App'
-}
-
-tasks.named('test') {
-    // Use JUnit Platform for unit tests.
-    useJUnitPlatform()
+    mainClass = 'org.tiss.App'
 }
