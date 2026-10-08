@@ -52,6 +52,8 @@
 ├── gradle.properties
 ├── gradlew
 ├── gradlew.bat
+├── lib
+│   └── http-builder-ng-core-1.0.4.jar
 ├── README.md
 └── settings.gradle
 
@@ -130,5 +132,4 @@ App
 6. O Jsoup extrai o cabeçalho e as linhas da tabela.
 7. Os dados são representados pelo objeto Tabela.
 8. A tabela é gravada no formato CSV.
-
 

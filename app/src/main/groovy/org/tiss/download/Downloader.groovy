@@ -3,7 +3,7 @@ package org.tiss.download
 class Downloader {
     void baixarArquivo(String urlDoArquivo, String nomeArquivoDestino) {
 
-        File dir = new File("../../../../../output")
+        File dir = new File("output")
         if (!dir.exists()) {
             dir.mkdirs()
         }

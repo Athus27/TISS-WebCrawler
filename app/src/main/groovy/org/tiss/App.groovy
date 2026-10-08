@@ -30,7 +30,7 @@ Tabela tabelaHistoricoTiss = tabelaParser.getTabela(urlHistorico, "#parent-field
 
 new CsvWriter().salvar(
         tabelaHistoricoTiss,
-        "../../../../../output/historico_tiss.csv"
+        "output/historico_tiss.csv"
 )
 
 //============================================================

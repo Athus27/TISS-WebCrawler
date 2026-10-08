@@ -5,6 +5,9 @@
 
 app/output
 
+# Ignore local Groovy jars, except the HTTP Builder dependency used by the project
+lib/*
+!lib/http-builder-ng-core-1.0.4.jar
+
 # Ignore Gradle build output directory
 build
-
