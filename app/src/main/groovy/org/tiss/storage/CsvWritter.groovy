@@ -15,6 +15,7 @@ class CsvWriter {
                 writer.writeLine(formatar(linha))
             }
         }
+        println("CSV salvo em: ${arquivo.path}")
     }
 
     private String formatar(List<String> linha) {
